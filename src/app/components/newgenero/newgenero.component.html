@@ -1,0 +1,21 @@
+
+<div class="form-register">
+  <h2>Añadir Genero</h2>
+  <form  #usuarioForm="ngForm">
+    <div class="form-group">
+      <label>ID Genero:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newgenero.id_genero" name="id_genero" placeholder="ID Genero" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Tipo:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newgenero.tipo" name="tipo" placeholder="Nombre" required>
+      </div>
+    </div>
+    <button onclick="alert('Genero Agregado')">Guardar</button>
+    <button onclick="history.back()" style="margin-top:2%">Regresar</button>
+  </form>
+</div>

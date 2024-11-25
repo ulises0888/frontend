@@ -1,0 +1,56 @@
+
+    <h2>Crear Nuevo Usuario</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <form  #usuarioForm="ngForm">
+        <div class="form-group">
+            <label>ID Usuario:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.id_usuario" name="id_usuario" placeholder="ID Usuario" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Nombre:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.nombre" name="nombre" placeholder="Nombre" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Apellido:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Dirección:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.direccion" name="direccion" placeholder="Dirección" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Correo:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.correo" name="correo" placeholder="Correo" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Teléfono:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.telefono" name="telefono" placeholder="Teléfono" required>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>Contraseña:</label>
+            <div class="input-group">
+                <input [(ngModel)]="nuevoUsuario.pass" name="pass" placeholder="Contraseña" required>
+            </div>
+        </div>
+    
+        <button onclick="alert('Usuario Agregado')">Guardar</button>
+        <button onclick="history.back()" style="margin-top:2%">Regresar</button>
+    </form>    

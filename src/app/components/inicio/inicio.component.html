@@ -1,0 +1,155 @@
+<h1 style="text-align:center; margin-top:20px"><strong>Bienvenido al Sistema</strong></h1>
+<style>
+    /* Estilo básico para la página */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Contenedor principal */
+    .contenedor {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Título principal */
+    h1 {
+        text-align: center;
+        color: #399b9f;
+    }
+
+    /* Estilo para los párrafos */
+    p {
+        font-size: 1.1em;
+        margin-bottom: 1.5em;
+    }
+
+    /* Subtítulo */
+    h2 {
+        color:  #399b9f;
+        font-size: 1.5em;
+    }
+
+        /* Contenedor principal */
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Espacio entre las imágenes */
+            padding: 20px;
+        }
+
+        /* Estilo de cada imagen dentro del contenedor */
+        .galeria img {
+            width: 100%;
+            max-width: 300px; /* Limita el tamaño máximo de la imagen */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out; /* Efecto de transición */
+        }
+
+        /* Efecto hover para las imágenes */
+        .galeria img:hover {
+            transform: scale(1.05); /* Amplía la imagen ligeramente al pasar el ratón */
+        }
+
+
+        footer {
+            background-color: #3cb6c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .footer-content div {
+            margin: 10px 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+</style>
+<div class="contenedor">
+        <h2 style="text-align:center">Mundos por descubrir</h2>
+        <p style="text-align:justify">En nuestra biblioteca, la imaginación y el conocimiento van de la mano, y cada rincón está pensado para que encuentres algo que despierte tu curiosidad. Aquí creemos en el poder de los libros y en el impacto que la lectura y el aprendizaje pueden tener en nuestras vidas. Nuestro objetivo es ofrecerte un espacio donde puedas disfrutar de todo eso: desde una extensa colección de libros y recursos digitales, hasta talleres y actividades que fomentan el encuentro y la colaboración.</p>
+        
+        <h2>Explora y Disfruta</h2>
+        <p style="text-align:justify">Ya sea que busques perderte en una buena novela, hacer una investigación profunda, o conectar con otros a través de eventos y actividades, te invitamos a que te acerques, explores y, sobre todo, disfrutes. Estamos aquí para inspirarte, apoyarte y compartir juntos el viaje del conocimiento. ¡Te esperamos con los brazos abiertos!</p> 
+    </div>
+    <div class="galeria">
+        <img src="https://via.placeholder.com/300x200/FF5733/FFFFFF?text=Leer" alt="Imagen 1">
+        <img src="https://via.placeholder.com/300x200/33B5FF/FFFFFF?text=Conocer" alt="Imagen 2">
+        <img src="https://via.placeholder.com/300x200/FFD700/FFFFFF?text=Explorar" alt="Imagen 3">
+        <img src="https://via.placeholder.com/300x200/8CFF33/FFFFFF?text=Pensar" alt="Imagen 4">
+        <img src="https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=Aprender" alt="Imagen 5">
+        <img src="https://via.placeholder.com/300x200/E91E63/FFFFFF?text=Imaginar" alt="Imagen 6">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h4>Biblioteca Mundo de Ideas</h4>
+                <p>La biblioteca que te conecta con el conocimiento, la cultura y la imaginación.</p>
+            </div>
+            <div>
+                <h4>Enlaces útiles</h4>
+                <ul>
+                    <li><a href="/inicio">Inicio</a></li>
+                    <li><a href="/editorial">Editorial</a></li>
+                    <li><a href="/datalibro">Libros</a></li>
+                    <li><a href="/genero">Genero</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p>Email:</p>
+                <p>Teléfono: 111 111 11 11</p>
+                <p>Dirección: UIEPA</p>
+            </div>
+        </div>
+
+        <p>&copy; 2024 Biblioteca Mundo de Ideas. Todos los derechos reservados.</p>
+    </footer>

@@ -1,0 +1,43 @@
+
+<div class="form-register">
+  <h2>Añadir Autor</h2>
+  <form  #usuarioForm="ngForm">
+    <div class="form-group">
+      <label>ID Autor:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newautor.id_autor" name="id_autor" placeholder="ID Autor" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Nombre:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newautor.nombre" name="nombre" placeholder="Nombre" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Apellido:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newautor.apellido" name="apellido" placeholder="Apellido" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Nacionalidad:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newautor.nacionalidad" name="nacionalidad" placeholder="Nacionalidad" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Información:</label>
+      <div class="input-group">
+        <input [(ngModel)]="newautor.informacion" name="informacion" placeholder="Informacion" required>
+      </div>
+    </div>
+
+    <button onclick="alert('Nuevo Autor')">Guardar</button>
+    <button onclick="history.back()" style="margin-top:2%">Regresar</button>
+  </form>
+</div>

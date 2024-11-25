@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2fcdcd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color:#2fcdcd;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+tbody tr:hover {
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+button {
+    background-color: #6ab1c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Para alinear el icono y texto */
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+button:hover {
+    background-color: #3a5a97;
+}
+
+button i {
+    margin-right: 5px; /* Espaciado entre icono y texto */
+}

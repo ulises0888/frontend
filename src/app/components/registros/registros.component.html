@@ -1,0 +1,100 @@
+<style>
+    button {
+        width: 80%; /* Hace que el botón ocupe todo el ancho disponible */
+        height: 30px; /* Ajusta la altura según tus necesidades */
+      }
+      
+      button a {
+        text-decoration: none;
+        color: inherit; /* Hereda el color del botón */
+        display: block; /* Hace que el enlace ocupe todo el espacio del botón */
+        width: 100%;
+        height: 100%;
+      }
+</style>
+<p>Registros Existentes</p>
+<style>
+    table {
+      border-collapse: collapse; /* Une los bordes de las celdas */
+    }
+
+    td, th {
+      border: 1px solid #6c6c6c; /* Bordes negros de 2px */
+      padding: 15px;
+    }
+  </style>
+<table>
+    <thead>
+        <tr>
+          <th>ID Usuario</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Dirección</th>
+          <th>Teléfono</th>
+          <th>Contraseña</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Juan</td>
+          <td>Pérez</td>
+          <td>Calle 123, Ciudad Ficticia</td>
+          <td>55 11 9999-8888</td>
+          <td>contraseña123</td>
+          <td>
+            <button><a href="/editarusuario">Editar</a></button>
+            <button style="margin-top:2px">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>María</td>
+          <td>González</td>
+          <td>Avenida Principal 456, Villa Imaginaria</td>
+          <td>34 654 321 098</td>
+          <td>password123</td>
+          <td>
+            <button><a href="/editarusuario">Editar</a></button>
+            <button style="margin-top:2px">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Luis</td>
+          <td>Rodríguez</td>
+          <td>Plaza Central 789, Pueblo Mágico</td>
+          <td>1 234 567 8901</td>
+          <td>secret123</td>
+          <td>
+            <button><a href="/editarusuario">Editar</a></button>
+            <button style="margin-top:2px">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ana</td>
+          <td>Martínez</td>
+          <td>Callejón del Sol 10, Ciudad del Sol</td>
+          <td>57 312 345 6789</td>
+          <td>pass123</td>
+          <td>
+            <button><a href="/editarusuario">Editar</a></button>
+            <button style="margin-top:2px">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Carlos</td>
+          <td>Hernández</td>
+          <td>Avenida de la Luna 23, Ciudad Lunar</td>
+          <td>33 678 901 2345</td>
+          <td>word123</td>
+          <td>
+            <button><a href="/editarusuario">Editar</a></button>
+            <button style="margin-top:2px">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+</table>

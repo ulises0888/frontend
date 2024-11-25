@@ -1,0 +1,41 @@
+
+<h2>Añadir Nueva Editorial</h2>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<form  #usuarioForm="ngForm">
+    <div class="form-group">
+        <label>ID Editorial:</label>
+        <div class="input-group">
+            <input [(ngModel)]="neweditorial.id_editorial" name="id_editorial" placeholder="ID Editorial" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Nombre:</label>
+        <div class="input-group">
+            <input [(ngModel)]="neweditorial.nombre" name="nombre" placeholder="Nombre" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Telefono:</label>
+        <div class="input-group">
+            <input [(ngModel)]="neweditorial.telefono" name="telefono" placeholder="Telefono" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label>Correo:</label>
+      <div class="input-group">
+          <input [(ngModel)]="neweditorial.correo" name="correo" placeholder="Correo" required>
+      </div>
+  </div>
+
+  <div class="form-group">
+    <label>Dirección:</label>
+    <div class="input-group">
+        <input [(ngModel)]="neweditorial.direccion" name="direccion" placeholder="Dirección" required>
+    </div>
+  </div>
+    <button onclick="alert('Editorial Agregada Correctamente')">Guardar</button>
+    <button onclick="history.back()" style="margin-top:2%">Regresar</button>
+</form>    
