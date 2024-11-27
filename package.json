@@ -43,17 +43,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
-  },
-  "budgets": [
-  {
-    "type": "css",
-    "maximumError": "6kB",
-    "maximumWarning": "5kB"
   }
-],
-"scripts": {
-  "build": "ng build --prod --budgets=false"
-}
-
-
 }
